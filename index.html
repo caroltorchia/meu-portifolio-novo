@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ana Torchia </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="">
+        <header>
+            <div class="bubble-text text">Ana Torchia</div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#experience">Experiencias</a></li>
+                <li><a href="#projects">Certificados</a></li>
+                <li><a href="#socialfooter">Social</a></li>
+            </ul>
+            <div id="switch" onclick="mode()">
+                <button></button>
+                <span>
+                    <img id="moon" src="./assets/moon.svg" alt="" />
+                    <img id="sun" src="./assets/sun.svg" alt="" />
+                </span>
+            </div>
+        </header>
+        <main class="container">
+            <section class="home hidden" id="home">
+                <div class="txt-animado"><span></span></div>
+                <div class="sobre">
+                    <div class="teste">
+                        <p class="hidden">
+                            Formada na Uninassau em Pedagogia decidir recomeçar minha carreira  cursando
+                            <strong>Analise e Desenvolvimento de Sistemas</strong> no
+                            <strong>Cesar school</strong>. Eu sou muito
+                            extrovertida e curiosa e sempre busco o melhor a
+                            cada dia!. Portanto, desde o primeiro contato com
+                            programação, realizei diversos projetos direcionados
+                            ao estudo e pratica ao mercado. Além de que possuo
+                            conhecimento de linguagens como
+                            <strong>Python</strong>, <strong>Django</strong>,
+                            <strong>JavaScript</strong> e <strong>Vue.js</strong> permaneço em constante
+                            evolução, buscando certificados e cursos relevantes
+                            para o meu repertório!
+                        </p>
+                        <div class="redes">
+                            <ul>
+                            
+                                </li>
+                                <li class="item card2 hidden">
+                                    <a
+                                        href="https://www.linkedin.com/in/ana-carolina-torchia/"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-linkedin icon"
+                                        ></i>
+                                    </a>
+                                </li>
+                                <li class="item card3 hidden">
+                                    <a
+                                        href="https://github.com/caroltorchia"
+                                        target="_blank"
+                                    >
+                                        <i class="fa-brands fa-github icon"></i>
+                                    </a>
+                                </li>
+                                <li class="item">
+                                    <a
+                                        href="https://wa.me/+5581986055916"
+                                        target="_blank"
+                                    >
+                                        <i
+                                            class="fa-brands fa-whatsapp icon"
+                                        ></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <img
+                        class="hidden"
+                        src="./assets/torchia11.jpeg"
+                        alt="Eu Torchia"
+                    />
+                </div>
+            </section>
+            <section class="Projects hidden" id="projects">
+                <h1>Certificados</h1>
+                <div class="wrapper">
+                    <div class="container2">
+                        <input type="radio" name="slide" id="c1" checked />
+                        <label for="c1" class="projetos hidden" id="card1">
+                            <div class="row">
+                                <div class="icon">1</div>
+                                <div class="description">
+                                    <h4>Bootcamp Back-end Python e Django</h4>
+                                    
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c2" />
+                        <label for="c2" class="projetos hidden" id="card2">
+                            <div class="row">
+                                <div class="icon">2</div>
+                                <div class="description">
+                                    <h4>Quality Assurance</h4>
+                                </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c3" />
+                        <label for="c3" class="projetos hidden" id="card3">
+                            <div class="row">
+                                <div class="icon">3</div>
+                                <div class="description">
+                                    <h4>Wordpress</h4>
+                               </div>
+                            </div>
+                        </label>
+                        <input type="radio" name="slide" id="c4" />
+                        <label for="c4" class="projetos hidden" id="card4">
+                            <div class="row">
+                                <div class="icon">4</div>
+                                <div class="description">
+                                    <h4>Lógica de programação</h4>
+                                </div>
+                            </div>
+                        </label>
+                    </label>
+                    <input type="radio" name="slide" id="c5" />
+                    <label for="c5" class="projetos hidden" id="card5">
+                        <div class="row">
+                            <div class="icon">5</div>
+                            <div class="description">
+                                <h4>Desvendando o Github</h4>
+                            </div>
+                        </div>
+                    </label>
+                </label>
+                <input type="radio" name="slide" id="c6" />
+                <label for="c6" class="projetos hidden" id="card6">
+                    <div class="row">
+                        <div class="icon">6</div>
+                        <div class="description">
+                            <h4>Fenômeno da impostora</h4>
+                        </div>
+                    </div>
+                </label>
+            </label>
+            <input type="radio" name="slide" id="c7" />
+            <label for="c7" class="projetos hidden" id="card7">
+                <div class="row">
+                    <div class="icon">7</div>
+                    <div class="description">
+                        <h4>HTML e CSS</h4>
+                    </div>
+                </div>
+            </label>
+                    </div>
+                </div>
+            </section>
+            <section class="experience hidden" id="experience">
+                <h1>Experiencias</h1>
+                <div class="journey">
+                    <div class="conjunto">
+                        <p class="textoJ hidden">
+                            Na Faculdade
+                            <strong>Maurício de Nassau</strong> eu tive a oportunidade
+                            de fazer o curso de
+                            <strong>Pedagogia</strong> no
+                            qual aprendi desenvolvi competências como <strong>lideraça</strong>, <strong>agilidade</strong> e <strong>organização</strong>, essenciais para uma atuação eficaz.
+                        </p>
+                        <div class="cards hidden">
+                            <img
+                                src="./assets/pedagogia.jpeg"
+                                alt=""
+                            />
+                            <p>Uninassau</p>
+                            <div class="pelicula"></div>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+                    <div class="conjunto">
+                        <div class="cards hidden">
+                            <img
+                                src="./assets/certificado-nutri.jpeg"
+                                alt=""
+                            />
+                            <p>Diploma</p>
+                            <div class="pelicula"></div>
+                            <div class="border"></div>
+                        </div>
+                        <p class="textoJ hidden">
+                            Não posso deixar de fora minha formação de <strong>Técnica em Nutrição e Dietética</strong> 
+                            cursado na <strong>Escola Tecnica Estadual Almirante Soares Dutra</strong> ao qual me ajudou bastante a desenvolver sofskills de <strong>comunicação assertiva</strong>, <strong>pensamento crítico</strong> e <strong>trabalho em equipe</strong>.
+                        </p>
+                    </div>
+                    <div class="conjunto">
+                        <p class="textoJ hidden">
+                            E finalmente a <strong>Atlantis Software</strong> empresa fundada por mim e meu marido com o objetivo de prestar serviços tanto de <strong>software</strong> como <strong>hardware</strong>. Com esse vínculo atuo como desenvolvedora Fullstack onde aprendo com cada projeto uma forma nova de inovar e utlizar diversas linguagens de programação para alcançar nossos objetivos.
+                          
+                        </p>
+                        <div class="cards hidden">
+                            <img
+                                src="./assets/novalogoatlantis.png.jpeg"
+                                alt=""
+                            />
+                            <p>Atlantis Software Solutions</p>
+                            <div class="pelicula"></div>
+                            <div class="border"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <section id="socialfooter">
+                <h1>Social</h1>
+                <div class="textoSocial">
+                    <p>
+                        <strong>Email: </strong><br />
+                        caroltorchia18@gmail.com
+                    </p>
+                    <p>
+                        <strong>Github: </strong><br />
+                        caroltorchia
+                    </p>
+                    <p><strong>Linkedin: </strong><br />Ana Carolina Torchia </p>
+                </div>
+            </section>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
